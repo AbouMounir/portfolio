@@ -10,8 +10,8 @@ export default function Home() {
   
   return (
     <div className="flex flex-col justify-center items-center">
-      <main className="lg:flex lg:w-[95%] md:w-4/5 gap-x-8 row-start-2 items-center sm:items-start">
-        <div className="p-6 lg:py-20 lg:w-[50%] flex flex-col gap-4 lg:sticky lg:top-0">
+      <main className="lg:flex lg:justify-around lg:w-[95%] md:w-4/5 gap-x-8 row-start-2 items-center sm:items-start">
+        <div className="p-6 lg:py-20 lg:w-[45%] flex flex-col gap-4 lg:sticky lg:top-0">
           <div className="md:flex gap-6 items-center">
             <Image 
               src='/Nahoua.jpg'
@@ -44,11 +44,11 @@ export default function Home() {
           </div>
           
         </div>
-        <div className="p-6 lg:py-20 lg:w-[50%] flex flex-col gap-3">
-          <ProjectCard title="Rock, Paper,Scissors" description="An interactive game built with React and TypeScript"/>
-          <ProjectCard title="E commerce Platform" description="A full-stack e-commerce solution with Next.js."/>
-          <ProjectCard title="Mon Géomètre Expert" description="An app to find a survey in Ivory Coast with Next.js"/>
-        </div>
+          <div className="p-6 lg:py-20 lg:w-[45%] flex flex-col gap-3">
+            <ProjectCard title="Rock, Paper,Scissors" description="An interactive and fun version of the classic Rock, Paper, Scissors game, built with HTML, CSS, and JavaScript." imgURL="/rock-paper-scissors-site.png" codeURL="/" demoURL="https://rock-paper-scissors-taupe-theta.vercel.app/"/>
+            <ProjectCard title="CGE DAO Website." description="A modern, fast-loading website for CGE DAO, built with Next.js." imgURL="/cge_dao_site.png" codeURL="/" demoURL="https://site-cge-dao-git-main-coulibaly-nahoua-arunas-projects.vercel.app/"/>
+            <ProjectCard title="MonGE: Survey Finder in Ivory Coast" description="A platform for discovering surveys and insights in Ivory Coast, built with Next.js." imgURL="/mon_ge_site.png" codeURL="/" demoURL="https://mon-expert.geodaftar.com/"/>
+          </div>
         <Contact />
       </main>
     </div>
