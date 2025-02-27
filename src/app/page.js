@@ -49,8 +49,8 @@ export default function Home() {
               <ProjectCard title="MonGE: Survey Finder in Ivory Coast" description="A platform for discovering surveys and insights in Ivory Coast, built with Next.js." imgURL="/mon_ge_site.png" codeURL="/" demoURL="https://mon-expert.geodaftar.com/"/>
             </div>
         </div>
-        <Contact />
       </main>
+      <Contact />
     </div>
   );
 }
