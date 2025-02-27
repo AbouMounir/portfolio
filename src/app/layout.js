@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blue-900 text-slate-50`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blue-950 text-slate-50 p-0 m-0 max-w-full`}
       >
         <ContactProvider>
           {children}
