@@ -54,22 +54,3 @@ export default function Home() {
     </div>
   );
 }
-
-{/*
-            <ToolCard 
-              title='Frameworks et bibliothèques' 
-              tools={[{url:"/React.png", tool: "React "}, {url:"/next.svg", tool: "Next"}, {url:"/html5.svg", tool: "Node js"}]}
-            />
-            <ToolCard 
-              title='Outils de versioning' 
-              tools={["Git", "Github"]}
-            />
-            <ToolCard
-              title='Outils de design' 
-              tools={["Figma "]}
-            />
-            <ToolCard 
-              title='Others' 
-              tools={[{url:"/git.svg", tool: "Git"}, {url:"/github.svg", tool: "Github"}, {url:"/figma.svg", tool: "Figma "}, {url:"/html5.svg", tool: "Progres"}, {url:"/html5.svg", tool: "Mongo db"}]}
-            />
-            */}
